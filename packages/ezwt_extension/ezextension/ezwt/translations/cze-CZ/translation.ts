@@ -1,60 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="cs_CZ">
+<TS language="cs_CZ" version="2.0">
 <context>
     <name>design/admin/content/datatype</name>
     <message>
         <source>Year</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Rok</translation>
     </message>
     <message>
         <source>Month</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Měsíc</translation>
     </message>
     <message>
         <source>Day</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Den</translation>
     </message>
     <message>
         <source>Hour</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Hodina</translation>
     </message>
     <message>
         <source>Minute</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Minuta</translation>
     </message>
 </context>
 <context>
     <name>design/admin/node/view/full</name>
     <message>
         <source>Remove selected</source>
-        <translation>Odebrat vybrané</translation>
+        <translation>Odstranit vybrané</translation>
     </message>
 </context>
 <context>
     <name>design/ezdemo/content/datatype</name>
     <message>
         <source>Year</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Rok</translation>
     </message>
     <message>
         <source>Month</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Měsíc</translation>
     </message>
     <message>
         <source>Day</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Den</translation>
     </message>
     <message>
         <source>Show calendar to select a date.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
 </context>
 <context>
     <name>design/standard/content/datatype</name>
     <message>
         <source>Second</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
 </context>
 <context>
@@ -89,7 +89,7 @@
     </message>
     <message>
         <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
-        <translation>Uloží koncept. Použijte toto tlačítko pro periodické ukládání vaší práce do eZ Publish během větších prací na obsahu.</translation>
+        <translation>Uložit obsah konceptu který je editován a pokračovat v editaci. Toto tlačítko můžete opakovaně použít pro uložení Vaší práce během úprav.</translation>
     </message>
     <message>
         <source>Store draft and exit</source>
@@ -105,18 +105,18 @@
     </message>
     <message>
         <source>Are you sure you want to discard the draft?</source>
-        <translation>Opravdu chcete zahodit tento koncept? Změny v něm provedené budou ztraceny.</translation>
+        <translation>Opravdu chcete odstranit tento koncept?</translation>
     </message>
     <message>
         <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
-        <translation>Zahodit koncept který je upravován. Tato akce také zahodí případné překlady tohoto konceptu, pokud existují.</translation>
+        <translation>Zahodit koncept, který je právě editován. Tato akce také odstraní překlady, které k tomuto konceptu náleží (pokud nějaké jsou).</translation>
     </message>
 </context>
 <context>
     <name>design/standard/content/view/versionview</name>
     <message>
         <source>Edit</source>
-        <translation>Upravit</translation>
+        <translation>Úprava</translation>
     </message>
     <message>
         <source>Publish</source>
@@ -159,7 +159,7 @@
     </message>
     <message>
         <source>Documentation</source>
-        <translation>Dokumentace</translation>
+        <translation>dokumentace</translation>
     </message>
     <message>
         <source>About</source>
@@ -171,7 +171,7 @@
     </message>
     <message>
         <source>Edit</source>
-        <translation>Upravit</translation>
+        <translation>Úprava</translation>
     </message>
     <message>
         <source>Go to admin interface.</source>
@@ -190,15 +190,15 @@
     </message>
     <message>
         <source>Show 10 items per page.</source>
-        <translation>Ukázat 10 prvků na stranu.</translation>
+        <translation>Zobrazit 10 prvků na stránku.</translation>
     </message>
     <message>
         <source>Show 50 items per page.</source>
-        <translation>Ukázat 50 prvků na stranu.</translation>
+        <translation>Zobrazit 50 prvků na stránku.</translation>
     </message>
     <message>
         <source>Show 25 items per page.</source>
-        <translation>Ukázat 25 prvků na stranu.</translation>
+        <translation>Zobrazit 25 prvků na stránku.</translation>
     </message>
     <message>
         <source>Priority</source>
@@ -221,8 +221,8 @@
         <translation>Sekce</translation>
     </message>
     <message>
-        <source>Use the priority fields to control the order in which the items appear. You can use both positive and negative integers. Click the &quot;Update priorities&quot; button to apply the changes.</source>
-        <translation>Použijte políčka priorit ke přímé kontrole pořadí, v jakém budou prvky zobrazeny. Můžete použít kladná i záporná čisla. Klikněte na tlačítko &quot;Uložit priority&quot; pro uložení změn.</translation>
+        <source>Use the priority fields to control the order in which the items appear. You can use both positive and negative integers. Click the "Update priorities" button to apply the changes.</source>
+        <translation>Použijte políčka priorit ke přímé kontrole pořadí, v jakém budou prvky zobrazeny. Můžete použít kladná i záporná čisla. Klikněte na tlačítko "Uložit priority" pro uložení změn.</translation>
     </message>
     <message>
         <source>You are not allowed to update the priorities because you do not have permission to edit &lt;%node_name&gt;.</source>
@@ -234,7 +234,7 @@
     </message>
     <message>
         <source>Update priorities</source>
-        <translation>Uložit priority</translation>
+        <translation>Aktualizovat priority</translation>
     </message>
     <message>
         <source>Apply changes to the priorities of the items in the list above.</source>
@@ -270,7 +270,7 @@
     </message>
     <message>
         <source>Use these controls to set the sorting method for the sub items of the current location.</source>
-        <translation>Použijte tyto prvky pro nastavení metody třídění podprvků aktuální lokace.</translation>
+        <translation>Použijte tyto ovládací prvky pro nastavení způsobu třídění podprvků této stránky.</translation>
     </message>
     <message>
         <source>Descending</source>
@@ -289,8 +289,8 @@
         <translation>Neplatný nebo chybějící parametr: %parameter</translation>
     </message>
     <message>
-        <source>Use these checkboxes to select items for removal. Click the &quot;Remove selected&quot; button to  remove the selected items.</source>
-        <translation>Použijte tyto políčka pro označení prvků k odstranění. Klikněte na tlačítko &quot;Odebrat vybrané&quot; pro odstranění označených prvků.</translation>
+        <source>Use these checkboxes to select items for removal. Click the "Remove selected" button to  remove the selected items.</source>
+        <translation>Použijte tyto políčka pro označení prvků k odstranění. Klikněte na tlačítko "Odebrat vybrané" pro odstranění označených prvků.</translation>
     </message>
     <message>
         <source>You do not have permission to remove this item.</source>
@@ -298,7 +298,7 @@
     </message>
     <message>
         <source>Remove the selected items from the list above.</source>
-        <translation>Odstranit označené prvky ze seznamu nahoře.</translation>
+        <translation>Odstranit označené prvky.</translation>
     </message>
     <message>
         <source>You do not have permission to remove any of the items from the list above.</source>
