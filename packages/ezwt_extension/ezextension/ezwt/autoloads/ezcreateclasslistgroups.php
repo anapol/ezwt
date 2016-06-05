@@ -56,6 +56,7 @@ class eZCreateClassListGroups
             case 'ezcreateclasslistgroups':
             {
                 $groupArray = array();
+                $groupArrayNameToID = array();
 
                 $ini = eZINI::instance( 'websitetoolbar.ini' );
 
@@ -88,11 +89,17 @@ class eZCreateClassListGroups
                             {
                                 $groupArray[$group->attribute( 'group_id' )]['items'] = array( $contentClass );
                                 $groupArray[$group->attribute( 'group_id' )]['group_name'] = $group->attribute( 'group_name' );
+                                $groupArrayNameToID[$group->attribute( 'group_name' )] = $group->attribute( 'group_id' );
                             }
                         }
                     }
                 }
-                $operatorValue = $groupArray;
+                ksort($groupArrayNameToID);
+                $sortedGroupArray = array();
+                foreach ($groupArrayNameToID as $groupName => $groupID) {
+                    $sortedGroupArray[$groupID] = $groupArray[$groupID];
+                }
+                $operatorValue = $sortedGroupArray;
             } break;
         }
     }
